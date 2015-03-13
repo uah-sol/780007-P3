@@ -35,7 +35,7 @@ P3DATA = r'^STUDENT1=(?P<student1_name>[\w ]+)\s*' + \
          r'STUDENT2=(?P<student2_name>[\w ]+)?\s*' + \
          r'LAST_STEP_TO_BE_GRADED=(?P<last_step>[0-6])\s*\Z'
 
-LIBSHELL_PLATFORMS = ['Darwin/x86_64']
+LIBSHELL_PLATFORMS = ['Darwin/x86_64', 'Linux/x86_64', 'Linux/i686']
 
 
 class CheckException(Exception):
